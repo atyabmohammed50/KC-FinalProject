@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivitychokingtext">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:src="@drawable/chokingstep1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Step1"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:text="If you think someone is choking, ask them ‘Are you choking?' If they can breathe, speak or cough then they might be able to clear their own throat. If they cannot breathe, cough, or make any noise, then they need your help straight away."
+            android:textStyle="normal"/>
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:src="@drawable/chokingstep2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Step2"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:text="Cough it out. Encourage them to cough and remove any obvious obstruction from their mouth."
+            android:textStyle="normal"/>
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:src="@drawable/chokingstep3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Step3"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:text="Hit it out. If coughing fails to work, you need to give five sharp back blows.
+
+To do this, help them to lean forwards, supporting their upper body with one hand.
+
+With the heel of your other hand give them five sharp back blows between their shoulder blades.
+
+After each back blow, check to see if there’s anything in their mouth."
+            android:textStyle="normal"/>
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:src="@drawable/chokingstep4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Step4"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:text="Squeeze it out. If back blows fail to clear the obstruction, give five abdominal thrusts.
+
+To do this, stand behind them and put your arms around their waist.
+
+Place one hand in a clenched fist between their belly button and the bottom of their chest.
+
+With your other hand, grasp your fist and pull sharply inwards and upwards up to five times. Check their mouth again, each time."
+            android:textStyle="normal"/>
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:src="@drawable/chokingsteps5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Step5"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:text="If the blockage has not cleared, call 112 for emergency help straight away. Repeat five back blows and five abdominal thrusts until help arrives, re-checking their mouth each time"
+            android:textStyle="normal"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

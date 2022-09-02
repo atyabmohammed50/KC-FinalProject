@@ -14,10 +14,11 @@ public class MainActivity9 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main9);
 
-        Button VideobtnBB = findViewById(R.id.videobtnbb);
+        Button Videobrokenbonebtn = findViewById(R.id.videobtnbb);
+        Button BrokenBonetxtbtn = findViewById(R.id.brokenbonetxtbtn);
 
 
-        VideobtnBB.setOnClickListener(new View.OnClickListener() {
+        Videobrokenbonebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -25,6 +26,17 @@ public class MainActivity9 extends AppCompatActivity {
                 startActivity(intent22);}});
 
 
+
+
+        BrokenBonetxtbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent88 = new Intent(MainActivity9.this,MainActivitybrokenbonetxt.class);
+                startActivity(intent88);
+
+            }
+        });
 
 
     }

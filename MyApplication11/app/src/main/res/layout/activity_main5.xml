@@ -50,10 +50,10 @@
         android:layout_marginTop="101dp"
         android:layout_marginEnd="117dp"
         android:layout_marginBottom="456dp"
-        app:srcCompat="@drawable/img_1" />
+        app:srcCompat="@drawable/drowning_img" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/desdrowningbtn"
         android:layout_width="287dp"
         android:layout_height="113dp"
         android:layout_alignParentStart="true"

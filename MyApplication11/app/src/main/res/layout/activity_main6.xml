@@ -50,13 +50,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.231"
-        app:srcCompat="@drawable/img_2" />
+        app:srcCompat="@drawable/fainting" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="198dp"
         android:layout_height="84dp"
-        android:text="Finting"
+        android:text="Fainting"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

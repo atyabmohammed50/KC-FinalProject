@@ -14,17 +14,28 @@ public class MainActivity8 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main8);
 
-        Button VideoBurnsbtn = findViewById(R.id.videoburnsbtn);
+        Button VideoBleedingbtn = findViewById(R.id.videobleedingbtn);
+        Button TxtBleedingbtn = findViewById(R.id.bleedingbtntxt);
 
 
 
 
-        VideoBurnsbtn.setOnClickListener(new View.OnClickListener() {
+        VideoBleedingbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent33 = new Intent(MainActivity8.this,MainActivityburnsvideo.class);
+                Intent intent33 = new Intent(MainActivity8.this,MainActivitybleedingvideo.class);
                 startActivity(intent33);}});
+
+
+
+
+        TxtBleedingbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent77 = new Intent(MainActivity8.this,MainActivitybleedingtxt.class);
+                startActivity(intent77);}});
 
 
 

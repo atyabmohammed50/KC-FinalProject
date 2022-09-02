@@ -16,6 +16,24 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivitybrokenbonetxt"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityburnstxt"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitybleedingtxt"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitychokingtext"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitybleedingvideo"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity10"
+            android:exported="false" />
+        <activity
             android:name=".MainActivityburnsvideo"
             android:exported="false" />
         <activity

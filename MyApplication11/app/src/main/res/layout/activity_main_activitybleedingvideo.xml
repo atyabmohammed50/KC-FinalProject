@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivitybrokebonevideo">
+    tools:context=".MainActivitybleedingvideo">
+
 
     <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    app:videoId="V1YiDNEqOHM"
-    app:autoPlay="true"
-    />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="8pTaqY40-Rs"
+        app:autoPlay="true"
+        />
 
 
 

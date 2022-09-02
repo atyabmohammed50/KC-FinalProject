@@ -15,6 +15,7 @@ public class MainActivity7 extends AppCompatActivity {
         setContentView(R.layout.activity_main7);
 
         Button VideoChokingBtn = findViewById(R.id.videochokingbtn);
+        Button CokingBtnTxt = findViewById(R.id.chokingbtntxt);
 
 
 
@@ -26,6 +27,15 @@ public class MainActivity7 extends AppCompatActivity {
 
                 Intent intent11 = new Intent(MainActivity7.this,MainActivitychokingvideo.class);
                 startActivity(intent11);}});
+
+
+
+        CokingBtnTxt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent66 = new Intent(MainActivity7.this,MainActivitychokingtext.class);
+                startActivity(intent66);}});
 
 
 

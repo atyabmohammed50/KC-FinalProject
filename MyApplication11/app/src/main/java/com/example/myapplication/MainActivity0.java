@@ -22,6 +22,8 @@ public class MainActivity0 extends AppCompatActivity {
         Button brokenbonebtn = findViewById(R.id.btnBrokenBone);
         Button bleedingbtn = findViewById(R.id.btnBleeding);
 
+        int i = 10;
+
         drowningbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -51,7 +53,7 @@ public class MainActivity0 extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    Intent intent6 = new Intent(MainActivity0.this,MainActivity8.class);
+                    Intent intent6 = new Intent(MainActivity0.this,MainActivity10.class);
                     startActivity(intent6);}});
 
 
@@ -65,12 +67,17 @@ public class MainActivity0 extends AppCompatActivity {
 
 
 
+
+
             bleedingbtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
-                    Intent intent8 = new Intent(MainActivity0.this,MainActivity10.class);
-                    startActivity(intent8);}});
+                    Intent intent8 = new Intent(MainActivity0.this,MainActivity8.class);
+                    startActivity(intent8);
+
+                }
+            });
 
 
 

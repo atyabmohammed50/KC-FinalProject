@@ -21,7 +21,7 @@
            <LinearLayout
                android:layout_width="match_parent"
                android:layout_height="200dp"
-               android:background="@drawable/img"
+               android:background="@drawable/chokingstep1"
                android:gravity="center"
                android:orientation="vertical">
 
@@ -80,7 +80,7 @@
                                android:layout_width="80dp"
                                android:layout_height="80dp"
                                android:id="@+id/Drowning"
-                               android:src="@drawable/img_1"
+                               android:src="@drawable/drowning_img"
                                android:layout_centerInParent="true">
                            </ImageView>
 
@@ -103,7 +103,8 @@
                                android:id="@+id/btnDrowning"
                                android:layout_width="match_parent"
                                android:layout_height="match_parent"
-                               android:background="@android:color/transparent">
+                               android:background="@android:color/transparent"
+                               tools:ignore="SpeakableTextPresentCheck">
 
                            </Button>
 
@@ -129,7 +130,7 @@
                                android:layout_width="80dp"
                                android:layout_height="80dp"
                                android:id="@+id/Fainting"
-                               android:src="@drawable/img_2"
+                               android:src="@drawable/fainting"
                                android:layout_centerInParent="true">
                            </ImageView>
 
@@ -151,7 +152,8 @@
                                android:id="@+id/btnFainting"
                                android:layout_width="match_parent"
                                android:layout_height="match_parent"
-                               android:background="@android:color/transparent">
+                               android:background="@android:color/transparent"
+                               tools:ignore="SpeakableTextPresentCheck">
 
                            </Button>
 
@@ -185,7 +187,7 @@
                                android:layout_width="80dp"
                                android:layout_height="80dp"
                                android:id="@+id/Choking"
-                               android:src="@drawable/img_3"
+                               android:src="@drawable/choking"
                                android:layout_centerInParent="true">
                            </ImageView>
 
@@ -207,7 +209,8 @@
                                android:id="@+id/btnChoking"
                                android:layout_width="match_parent"
                                android:layout_height="match_parent"
-                               android:background="@android:color/transparent">
+                               android:background="@android:color/transparent"
+                               tools:ignore="SpeakableTextPresentCheck">
 
                            </Button>
 
@@ -233,7 +236,7 @@
                                android:layout_width="80dp"
                                android:layout_height="80dp"
                                android:id="@+id/Burns"
-                               android:src="@drawable/img_6"
+                               android:src="@drawable/burns"
                                android:layout_centerInParent="true">
                            </ImageView>
 
@@ -255,7 +258,8 @@
                                android:id="@+id/btnBurns"
                                android:layout_width="match_parent"
                                android:layout_height="match_parent"
-                               android:background="@android:color/transparent">
+                               android:background="@android:color/transparent"
+                               tools:ignore="SpeakableTextPresentCheck">
 
                            </Button>
 
@@ -289,7 +293,7 @@
                                android:layout_width="80dp"
                                android:layout_height="80dp"
                                android:id="@+id/BrokenBone"
-                               android:src="@drawable/img_4"
+                               android:src="@drawable/brokenbone"
                                android:layout_centerInParent="true">
                            </ImageView>
 
@@ -311,7 +315,8 @@
                                android:id="@+id/btnBrokenBone"
                                android:layout_width="match_parent"
                                android:layout_height="match_parent"
-                               android:background="@android:color/transparent">
+                               android:background="@android:color/transparent"
+                               tools:ignore="SpeakableTextPresentCheck">
 
                            </Button>
 
@@ -337,7 +342,7 @@
                                android:layout_width="80dp"
                                android:layout_height="80dp"
                                android:id="@+id/Bleeding"
-                               android:src="@drawable/img_5"
+                               android:src="@drawable/bleeding_img"
                                android:layout_centerInParent="true">
                            </ImageView>
 
@@ -356,10 +361,11 @@
 
 
                            <Button
+                               android:id="@+id/btnBleeding"
                                android:layout_width="match_parent"
                                android:layout_height="match_parent"
-                               android:id="@+id/btnBleeding"
-                               android:background="@android:color/transparent">
+                               android:background="@android:color/transparent"
+                               tools:ignore="SpeakableTextPresentCheck">
 
                            </Button>
 
