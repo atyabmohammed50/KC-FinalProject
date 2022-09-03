@@ -30,6 +30,15 @@ public class MainActivity5 extends AppCompatActivity {
 
 
 
+        Desbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent111 = new Intent(MainActivity5.this,MainActivitydrowningtxt.class);
+                startActivity(intent111);
+
+            }
+        });
 
 
     }

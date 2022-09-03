@@ -22,7 +22,7 @@ public class MainActivity0 extends AppCompatActivity {
         Button brokenbonebtn = findViewById(R.id.btnBrokenBone);
         Button bleedingbtn = findViewById(R.id.btnBleeding);
 
-        int i = 10;
+
 
         drowningbtn.setOnClickListener(new View.OnClickListener() {
             @Override

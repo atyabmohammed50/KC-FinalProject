@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityfaintingtxt">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:src="@drawable/fainting" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:text="Step1"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:padding="5dp"
+        android:text="Position the person on his or her back. If there are no injuries and the person is breathing, raise the person's legs above heart level — about 12 inches (30 centimeters) — if possible. Loosen belts, collars or other constrictive clothing."
+        android:textStyle="normal"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:text="To reduce the chance of fainting again, don't get the person up too quickly. If the person doesn't regain consciousness within one minute, call 911 or your local emergency number."
+            android:textStyle="normal"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Step2"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:text="Check for breathing. If the person isn't breathing, begin CPR. Call 911 or your local emergency number. Continue CPR until help arrives or the person begins to breathe."
+            android:textStyle="normal"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:text="If the person was injured in a fall associated with a faint, treat bumps, bruises or cuts appropriately. Control bleeding with direct pressure."
+            android:textStyle="normal"/>
+
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:src="@drawable/faintingsteps_img" />
+
+
+
+    </LinearLayout>
+</ScrollView>

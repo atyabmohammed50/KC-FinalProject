@@ -156,6 +156,13 @@ Secure the bandage with adhesive tape or continue to maintain pressure with your
 Call 112 or emergency medical help for severe bleeding that you can't control."
            android:textStyle="normal"/>
 
+
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="210dp"
+           android:src="@drawable/bleedingsteps_img"/>
+
    </LinearLayout>
 
 
