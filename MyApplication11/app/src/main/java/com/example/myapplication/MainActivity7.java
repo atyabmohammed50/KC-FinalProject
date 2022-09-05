@@ -9,6 +9,18 @@ import android.widget.Button;
 
 public class MainActivity7 extends AppCompatActivity {
 
+
+
+    @Override
+    public boolean onSupportNavigateUp() {
+
+        onBackPressed();
+
+        return true;
+
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,8 +28,12 @@ public class MainActivity7 extends AppCompatActivity {
 
         Button VideoChokingBtn = findViewById(R.id.videochokingbtn);
         Button CokingBtnTxt = findViewById(R.id.chokingbtntxt);
+        Button QuizChokingBtn = findViewById(R.id.quizchokingbtn);
 
 
+
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
 
@@ -38,6 +54,16 @@ public class MainActivity7 extends AppCompatActivity {
                 startActivity(intent66);}});
 
 
+
+        QuizChokingBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent444 = new Intent(MainActivity7.this,MainActivitychokingquiz.class);
+                startActivity(intent444);
+
+            }
+        });
 
     }
 }

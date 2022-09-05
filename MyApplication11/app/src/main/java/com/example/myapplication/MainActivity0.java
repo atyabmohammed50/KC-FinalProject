@@ -11,6 +11,14 @@ import android.widget.Button;
 public class MainActivity0 extends AppCompatActivity {
 
     @Override
+    public boolean onSupportNavigateUp() {
+
+        onBackPressed();
+
+        return true;
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -21,6 +29,11 @@ public class MainActivity0 extends AppCompatActivity {
         Button burnsbtn = findViewById(R.id.btnBurns);
         Button brokenbonebtn = findViewById(R.id.btnBrokenBone);
         Button bleedingbtn = findViewById(R.id.btnBleeding);
+
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
 
 
 

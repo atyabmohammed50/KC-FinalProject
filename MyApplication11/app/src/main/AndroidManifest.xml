@@ -16,6 +16,28 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityaboutapp"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitybleedingquiz"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitybrokenbonequiz"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityquizburns"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitychokingquiz"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityfaintingquiz"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitydrowningquiz"
+            android:exported="false" />
+        <activity android:name=".MainActivity1" />
+        <activity
             android:name=".MainActivitydrowningtxt"
             android:exported="false" />
         <activity
@@ -73,8 +95,9 @@
             android:name=".MainActivity0"
             android:exported="false" />
         <activity
-            android:name=".MainActivity1"
-            android:exported="true">
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

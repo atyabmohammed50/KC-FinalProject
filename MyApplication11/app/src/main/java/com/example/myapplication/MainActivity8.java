@@ -9,6 +9,16 @@ import android.widget.Button;
 
 public class MainActivity8 extends AppCompatActivity {
 
+
+    @Override
+    public boolean onSupportNavigateUp() {
+
+        onBackPressed();
+
+        return true;
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,6 +26,11 @@ public class MainActivity8 extends AppCompatActivity {
 
         Button VideoBleedingbtn = findViewById(R.id.videobleedingbtn);
         Button TxtBleedingbtn = findViewById(R.id.bleedingbtntxt);
+        Button QuizBleedingbtn = findViewById(R.id.quizbleedingbtn);
+
+
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
 
@@ -38,6 +53,13 @@ public class MainActivity8 extends AppCompatActivity {
                 startActivity(intent77);}});
 
 
+
+        QuizBleedingbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent666 = new Intent(MainActivity8.this,MainActivitybleedingquiz.class);
+                startActivity(intent666);}});
 
 
     }

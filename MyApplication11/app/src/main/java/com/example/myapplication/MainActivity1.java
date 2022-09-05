@@ -25,10 +25,7 @@ public class MainActivity1 extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent1 = new Intent(MainActivity1.this,MainActivity0.class);
-                startActivity(intent1);
-
-            }
-        });
+                startActivity(intent1);}});
 
 
         Callbtn.setOnClickListener(new View.OnClickListener() {
@@ -42,13 +39,16 @@ public class MainActivity1 extends AppCompatActivity {
 
                 if (intent3.resolveActivity(getPackageManager())  !=null) {
 
-                    startActivity(intent3);
-                }
-
-            }
-        });
+                    startActivity(intent3);}}});
 
 
+
+        AboutAppbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent222 = new Intent(MainActivity1.this, MainActivityaboutapp.class);
+                startActivity(intent222);}});
 
 
 
