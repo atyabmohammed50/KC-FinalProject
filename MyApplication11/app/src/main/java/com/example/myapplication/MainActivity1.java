@@ -2,13 +2,18 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity1 extends AppCompatActivity {
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +29,10 @@ public class MainActivity1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent1 = new Intent(MainActivity1.this,MainActivity0.class);
-                startActivity(intent1);}});
+                Intent intent1 = new Intent(MainActivity1.this, MainActivity0.class);
+                startActivity(intent1);
+            }
+        });
 
 
         Callbtn.setOnClickListener(new View.OnClickListener() {
@@ -37,10 +44,12 @@ public class MainActivity1 extends AppCompatActivity {
                 intent3.setData(Uri.parse("tel:112"));
 
 
-                if (intent3.resolveActivity(getPackageManager())  !=null) {
+                if (intent3.resolveActivity(getPackageManager()) != null) {
 
-                    startActivity(intent3);}}});
-
+                    startActivity(intent3);
+                }
+            }
+        });
 
 
         AboutAppbtn.setOnClickListener(new View.OnClickListener() {
@@ -48,11 +57,22 @@ public class MainActivity1 extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent222 = new Intent(MainActivity1.this, MainActivityaboutapp.class);
-                startActivity(intent222);}});
-
+                startActivity(intent222);
+            }
+        });
 
 
 
 
     }
-}
+
+    }
+
+
+
+
+
+
+
+
+

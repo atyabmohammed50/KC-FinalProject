@@ -11,6 +11,18 @@ import android.widget.TextView;
 
 public class MainActivityquizburns extends AppCompatActivity implements View.OnClickListener {
 
+
+
+    @Override
+    public boolean onSupportNavigateUp() {
+
+        onBackPressed();
+
+        return true;
+
+    }
+
+
     TextView totalQuestionsTextView;
     TextView questionTextView;
     Button ansA, ansB, ansC, ansD;
@@ -25,6 +37,10 @@ public class MainActivityquizburns extends AppCompatActivity implements View.OnC
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_activityquizburns);
+
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         totalQuestionsTextView = findViewById(R.id.total_question);
         questionTextView = findViewById(R.id.question);

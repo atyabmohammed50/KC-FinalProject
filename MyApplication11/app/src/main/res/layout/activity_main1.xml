@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
+    android:backgroundTint="#C8DEE8"
     tools:context=".MainActivity1">
 
 
@@ -12,7 +13,7 @@
         android:id="@+id/aboutappbtn"
         android:layout_width="334dp"
         android:layout_height="81dp"
-        android:backgroundTint="#A8A480"
+        android:backgroundTint="#86BAD1"
         android:fontFamily="casual"
         android:text="about app"
         android:textSize="34sp"
@@ -28,12 +29,12 @@
         android:id="@+id/callbtn"
         android:layout_width="334dp"
         android:layout_height="81dp"
-        android:backgroundTint="#A8A480"
+        android:backgroundTint="#86BAD1"
         android:fontFamily="casual"
+        android:onClick="btn_phone_number"
         android:text=" call (112)"
         android:textSize="34sp"
         android:textStyle="bold"
-        android:onClick="btn_phone_number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
@@ -46,7 +47,7 @@
         android:id="@+id/startbtn"
         android:layout_width="334dp"
         android:layout_height="81dp"
-        android:backgroundTint="#A8A480"
+        android:backgroundTint="#86BAD1"
         android:fontFamily="casual"
         android:text="start"
         android:textSize="34sp"
@@ -63,16 +64,34 @@
         android:layout_width="239dp"
         android:layout_height="133dp"
         android:fontFamily="casual"
-        android:text="LBA"
-        android:textColor="#121111"
+        android:text="LFA"
+        android:textColor="#0B0B0B"
         android:textSize="96sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintHorizontal_bias="0.709"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.287" />
+        app:layout_constraintVertical_bias="0.265" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:text="Learn First Aid"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

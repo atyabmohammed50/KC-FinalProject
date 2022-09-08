@@ -3,12 +3,12 @@
 
     <item android:drawable="@color/white"/>
     <item>
-        <bitmap android:src="@drawable/logo6"
+        <bitmap android:src="@drawable/logo2"
                 android:gravity="center"/>
     </item>
 
     <item>
-        <bitmap android:src="@drawable/app_name2"
+        <bitmap android:src="@drawable/appname"
             android:gravity="top"/>
     </item>
 

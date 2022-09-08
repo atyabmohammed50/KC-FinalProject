@@ -6,8 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity5 extends AppCompatActivity {
+
 
 
 
@@ -28,6 +30,7 @@ public class MainActivity5 extends AppCompatActivity {
         Button Videobtn = findViewById(R.id.videobtn);
         Button Desbtn = findViewById(R.id.desdrowningbtn);
         Button QuizDrowningbtn = findViewById(R.id.quizdrowningbtn);
+
 
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -56,9 +59,12 @@ public class MainActivity5 extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent777 = new Intent(MainActivity5.this, MainActivitydrowningquiz.class);
-                startActivity(intent777);
+                startActivity(intent777);}});
 
-            }
-        });
+
+
+
+
+
     }
 }

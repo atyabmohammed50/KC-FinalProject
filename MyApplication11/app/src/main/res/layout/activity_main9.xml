@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C8DEE8"
     tools:context=".MainActivity9">
 
     <Button
@@ -16,6 +17,7 @@
         android:layout_alignParentBottom="true"
         android:text="Quiz"
         android:textSize="25sp"
+        android:backgroundTint="#86BAD1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -32,6 +34,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:fontFamily="sans-serif-medium"
+        android:backgroundTint="#86BAD1"
         android:text="Description"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,6 +53,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:text="video"
+        android:backgroundTint="#86BAD1"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,6 +69,7 @@
         android:text="Broken Bone"
         android:textSize="40sp"
         android:textStyle="bold"
+        android:fontFamily="casual"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.577"
